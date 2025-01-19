@@ -336,3 +336,48 @@ a {
     color: var(--bg-primary);
     background-color: var(--bg-secondary);
 }
+.features{
+    padding: 240px 0;
+    background-image: url("../images/runners.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: var(--bg-primary);
+}
+.features__first-wrapper{
+    width: 50%;
+} 
+.features__second-wrapper{
+    width: 50%;
+    max-width: 490px;
+}
+.features__wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.features__wrapper-title{
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+}
+.features__wrapper-desc{
+    border-left: 3px solid var(--bg-primary);
+    padding-left: 40px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.features__wrapper-link{
+    display: inline-block;
+    padding: 12px 46px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--bg-primary);
+    background-color: var(--bg-secondary);
+}
